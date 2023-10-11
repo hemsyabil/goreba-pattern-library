@@ -7,11 +7,18 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
     <!-- css styles -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_colors.css">
+    <link rel="stylesheet" href="css/style_typo.css">
+    <link rel="stylesheet" href="css/style_logos.css">
+    <link rel="stylesheet" href="css/style_components.css">
+    <link rel="stylesheet" href="css/style_icons.css">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>GOREBA Pattern Library</title>
 </head>
@@ -19,7 +26,7 @@
     <!-- This section is for hero container -->
     <section id="top">
         <div id="hero-container">
-            <h1>GOREBA Pattern Library</h1>
+            <h2>GOREBA Pattern Library</h2>
         </div>
     </section>
 
@@ -38,33 +45,304 @@
     
     <!-- Main section -->
     <main>
-        <section id="colors">
-            <h1>Colors</h1>
-            <p>This is the color section of the website.</p>
-            <a href="#top">Go to top</a>
+        <!-- Color pattern section -->
+        <section>
+            <h3 class="section-header">Colors <a href="#top">Top</a></h3>
+            <div id="pattern-colors">
+                <div class="colors">
+                    <span>
+                        Name: Primary color <br> Hex: #374794
+                    </span>
+                </div>
+                <div class="colors">
+                    <span>
+                        Name: Secondary color <br> Hex: #F66247
+                    </span>
+                </div>
+                <div class="colors">
+                    <span>
+                        Name: Sub color <br> Hex: #6C757D
+                    </span>
+                </div>
+                <div class="colors">
+                    <span>
+                        Name: Attention color <br> Hex: #FFC107
+                    </span>
+                </div>
+                <div class="colors">
+                    <span>
+                        Name: Danger color <br> Hex: #DC3545                    
+                    </span>
+                </div>
+                <div class="colors">
+                    <span>
+                        Name: Success color <br> Hex: #28A745
+                    </span>
+                </div>
+            </div>
         </section>
-        <section id="typography">
-            <h1>Typography</h1>
-            <p>This is the typography section of the website.</p>
-            <a href="#top">Go to top</a>
+        
+        <!-- Typography pattern section -->
+        <section>
+            <h3 class="section-header">Typography <a href="#top">Top</a></h3>
+            <p class="body-title">Font Family: 'Ubuntu', sans-serif;</p>
+            <div class="pattern-typo">
+                <h1>Heading One <span>font-size: 42px, font-weight: 400</span></h1>
+            </div>
+            <div class="pattern-typo">
+                <h2>Heading Two <span>font-size: 32px, font-weight: 400</span></h2>
+            </div>
+            <div class="pattern-typo">
+                <h3>Heading Three <span>font-size: 24px, font-weight: 400</span></h3>
+            </div>
+            <div class="pattern-typo">
+                <p class="body-bold">Body Bold <span>font-size: 24px, font-weight: 400</span></p>
+            </div>
+            <div class="pattern-typo">
+                <p>Body <span>font-size: 16px, font-weight: 600</span></p>
+            </div>
+            <div class="pattern-typo">
+                <p class="small-meta">Small Texts <span>font-size: 13px, font-weight: 300</span></p>
+            </div>
+            <div class="pattern-typo">
+                <p class="pattern-button">Button <span>font-size: 18px, font-weight: 500</span></p>
+            </div>
+            <div class="pattern-typo">
+                <p>Example</p>
+                <h3>Main Section Title</h3>
+                <p class="body-bold">Sub-Section Title</p>
+                <p>Paragraph: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+                    laborum.</p>
+                <p class="body-bold">Small Meta Text</p>
+                <p class="small-meta">
+                    Paragraph: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+                    laborum.</p>
+            </div>
         </section>
+        
+        <!-- Logos pattern section -->
         <section id="logos">
-            <h1>Logos</h1>
-            <p>This is the logo section of the website.</p>
-            <a href="#top">Go to top</a>
+            <h3 class="section-header">Logos <a href="#top">Top</a></h3>
+            <div class="pattern-logo">
+                <figure>
+                    <img class="pattern-picture" src='images/goreba_icon.png' alt='GOREBA - Icon' />
+                    <figcaption>Graphical Icon</figcaption>
+                </figure>
+                <figure>
+                    <img class="pattern-picture" src='images/goreba_full.png' alt='GOREBA - Full' />
+                    <figcaption>Full Logo</figcaption>
+                </figure>
+                <figure>
+                    <img class="pattern-picture" src='images/goreba_name.png' alt='GOREBA - Name' />
+                    <figcaption>Graphical Name</figcaption>
+                </figure>
+            </div>
         </section>
+        
         <section id="components">
-            <h1>Components</h1>
-            <p>This is the compnents section of the website.</p>
-            <a href="#top">Go to top</a>
+            <h3 class="section-header">Components <a href="#top">Top</a></h3>
+            <h3>Buttons</h3>
+            <div class="buttons">
+                <button class="pattern-button primary-button">Primary Action</button>
+                <button class="pattern-button important-button">Important</button>
+                <button class="pattern-button default-button">Default</button>
+                <button class="pattern-button caution-button">Caution</button>
+            </div>
+            <div class="buttons">
+                <button class="pattern-button primary-button"><i class="fa fa-spinner fa-spin"></i>Please Wait</button>
+                <button class="pattern-button important-button"><i class="fa fa-spinner fa-spin"></i>Please Wait</button>
+                <button class="pattern-button default-button"><i class="fa fa-spinner fa-spin"></i>Please Wait</button>
+                <button class="pattern-button caution-button"><i class="fa fa-spinner fa-spin"></i>Please Wait</button>
+            </div>
+
+            <h3>Feedback</h3>
+            <div class="feedback-pane success">
+                <div class="feedback-icon success-icon"><i class="fa fa-solid fa-check"></i></div>
+                <div class="feedback-msg"><p class="body-bold">Account Created 
+                    <span class="small-meta"><br>Thank you for joining Goreba!</span></p>
+                </div>
+            </div>
+            <div class="feedback-pane attention">
+                <div class="feedback-icon attention-icon"><i class="fa fa-solid fa-exclamation-triangle"></i></div>
+                <div class="feedback-msg"><p class="body-bold">Account Status 
+                    <span class="small-meta"><br>You closed your account on Nov 29, 2013 07:00 pm</span></p>
+                </div>
+            </div>
+            <div class="feedback-pane warning">
+                <div class="feedback-icon warning-icon"><i class="fa fa-solid fa-ban"></i></div>
+                <div class="feedback-msg"><p class="body-bold">Account Status 
+                    <span class="small-meta"><br>Something terrible happened</span></p>
+                </div>
+            </div>
+            <div class="feedback-pane default-primary">
+                <div class="feedback-icon default-primary-icon"><i class="fa fa-solid fa-info"></i></div>
+                <div class="feedback-msg"><p class="body-bold">Account Status 
+                    <span class="small-meta"><br>You're awesome. No type declaration defaults to an info style</span></p>
+                </div>
+            </div>
+
+            <h3>Anchor</h3>
+            <p><a class="anchor-tag" href="">Anchor</a></p>
+
+            <h3>Lists</h3>
+            <div style="display: inline-block; margin-right: 50px;">
+                <p class="body-bold">Ordered lists:</p>
+                <ol>
+                    <li>Leather Bracelets</li>
+                    <li>Beaded Bangles</li>
+                    <li>Boho Necklaces</li>
+                    <li>Gemstone Bangles</li>
+                </ol>
+            </div>
+            <div style="display: inline-block;">
+                <p class="body-bold">Unordered lists:</p>
+                <ul>
+                    <li>Leather Bracelets</li>
+                    <li>Beaded Bangles</li>
+                    <li>Boho Necklaces</li>
+                    <li>Gemstone Bangles</li>
+                </ul>
+            </div>
+
+            <h3>Tables</h3>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Email Address</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Birthday</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>sample.email3@example.com</td>
+                        <td>Michael</td>
+                        <td>Smith</td>
+                        <td>1978-08-03</td>
+                        <td>789 Oak Road, Villageton, State</td>
+                    </tr>
+                    <tr>
+                        <td>sample.email5@example.com</td>
+                        <td>David</td>
+                        <td>Brown</td>
+                        <td>1980-09-27</td>
+                        <td>890 Pine Drive, Boroughburg, State</td>
+                    </tr>
+                    <tr>
+                        <td>sample.email4@example.com</td>
+                        <td>Susan</td>
+                        <td>Williams</td>
+                        <td>1995-02-10</td>
+                        <td>567 Cedar Lane, Hamletown, State</td>
+                    </tr>
+                    <tr>
+                        <td>sample.email1@example.com</td>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>1990-05-15</td>
+                        <td>123 Main Street, Cityville, State</td>
+                    </tr>
+                    <tr class="active-row">
+                        <td>sample.email2@example.com</td>
+                        <td>Alice</td>
+                        <td>Johnson</td>
+                        <td>1985-11-22</td>
+                        <td>456 Elm Avenue, Townsville, State</td>
+                    </tr>
+                    <!-- and so on... -->
+                </tbody>
+            </table>
         </section>
+        
         <section id="icons">
-            <h1>Icons</h1>
-            <p>This is the icon section of the website.</p>
-            <a href="#top">Go to top</a>
+            <h3 class="section-header">Icons <a href="#top">Top</a></h3>
+            <div class="icons-design">
+                <i class="fa fa-sign-in" aria-hidden="true"></i>
+                <p>Login</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-sign-out" aria-hidden="true"></i>
+                <p>Logout</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <p>User</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-address-card" aria-hidden="true"></i>
+                <p>Card</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <p>Cart</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <p>Facebook</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <p>Twitter</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <p>Instagram</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <p>YouTube</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                <p>Check</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                <p>Warning</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-ban" aria-hidden="true"></i>
+                <p>Danger</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-bolt" aria-hidden="true"></i>
+                <p>Flash</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-gift" aria-hidden="true"></i>
+                <p>Gifts</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <p>Heart</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <p>Home</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+                <p>NavBar</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <p>Search</p>
+            </div>
+            <div class="icons-design">
+                <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                <p>Credit</p>
+            </div>
         </section>
     </main>
-
+    
     <!-- Scripts -->
     <script src="scripts/script.js"></script>
 </body>

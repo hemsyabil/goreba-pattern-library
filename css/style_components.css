@@ -1,0 +1,103 @@
+.buttons {
+    margin: 30px 0px;
+}
+button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px solid var(--primary-color);
+    margin-right: 10px;
+}
+.primary-button {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.important-button {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.default-button {
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+}
+.caution-button {
+    background-color: var(--attention-color);
+}
+
+button i {
+    margin-right: 10px;
+}
+
+
+
+.feedback-pane {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.success {
+    border: 1px solid var(--success-color);
+}
+.attention {
+    border: 1px solid var(--attention-color);
+}
+.warning {
+    border: 1px solid var(--danger-color);
+}
+.default-primary {
+    border: 1px solid var(--primary-color);
+}
+
+
+.feedback-icon {
+    display: inline-block;
+    margin: 0px 20px;
+    font-size: 35px;
+}
+.feedback-msg {
+    display: inline-block;
+}
+.success-icon {
+    color: var(--success-color);
+}
+.attention-icon {
+    color: var(--attention-color);
+}
+.warning-icon {
+    color: var(--danger-color)
+}
+.default-primary-icon {
+    color: var(--primary-color)
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 35px 0;
+    font-size: 14px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid var(--primary-color)
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: fff;
+}
+ 
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--primary-color);
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: var(--primary-color);
+}

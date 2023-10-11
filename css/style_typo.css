@@ -1,0 +1,23 @@
+
+
+
+.pattern-typo {
+    margin-bottom: 20px;
+}
+.pattern-typo span {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 50px;
+}
+.body-bold {
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.pattern-button {
+    font-size: 18px;
+    font-weight: 500;
+}
+.small-meta {
+    font-size: 13px;
+    font-weight: 300;
+}
